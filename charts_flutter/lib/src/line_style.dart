@@ -14,6 +14,7 @@
 // limitations under the License.
 
 import 'package:charts_common/common.dart' as common show Color, LineStyle;
+import 'package:charts_common/common.dart';
 
 class LineStyle implements common.LineStyle {
   @override
@@ -22,4 +23,14 @@ class LineStyle implements common.LineStyle {
   List<int> dashPattern;
   @override
   int strokeWidth;
+
+  @override
+  List<int> ecgDashPattern1;
+  @override
+  List<int> ecgDashPattern2;
+  @override
+  Color ecgColor1;
+  @override
+  Color ecgColor2;
+
 }
