@@ -15,6 +15,7 @@
 
 import 'dart:math';
 
+import 'package:charts_common/common.dart';
 import 'package:meta/meta.dart' show immutable, required;
 
 import '../../../../common/graphics_factory.dart' show GraphicsFactory;
@@ -159,6 +160,18 @@ class GridlineTickDrawStrategy<D> extends BaseTickDrawStrategy<D> {
         }
         lineEnd = Point(drawAreaBounds.right, y);
         break;
+    }
+
+    if (lineStyle.ecgColor1 != null) {
+      if (tick.textElement.text == " ") {
+        lineStyle.color = lineStyle.ecgColor1; //MaterialPalette.red.makeShades(5)[3];
+        lineStyle.strokeWidth = 1;
+        lineStyle.dashPattern = lineStyle.ecgDashPattern1; //[1, 1, 1];
+      } else {
+        lineStyle.color = lineStyle.ecgColor2; //MaterialPalette.red.makeShades(5)[1];
+        lineStyle.strokeWidth = 1;
+        lineStyle.dashPattern = lineStyle.ecgDashPattern2 ;//[];
+      }
     }
 
     canvas.drawLine(

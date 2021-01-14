@@ -13,11 +13,21 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+import '../../common.dart';
 import 'paint_style.dart' show PaintStyle;
 
 abstract class LineStyle extends PaintStyle {
   List<int> get dashPattern;
   set dashPattern(List<int> dashPattern);
+
+  List<int> get ecgDashPattern1;
+  set ecgDashPattern1(List<int> dashPattern);
+  List<int> get ecgDashPattern2;
+  set ecgDashPattern2(List<int> dashPattern);
+  Color get ecgColor1;
+  set ecgColor1(Color color);
+  Color get ecgColor2;
+  set ecgColor2(Color color);
 
   int get strokeWidth;
   set strokeWidth(int strokeWidth);
