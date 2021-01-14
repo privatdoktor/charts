@@ -39,7 +39,8 @@ class Tick<D> {
       {@required this.value,
       @required this.textElement,
       this.locationPx,
-      this.labelOffsetPx});
+      this.labelOffsetPx,
+      });
 
   @override
   String toString() => 'Tick(value: $value, locationPx: $locationPx, '

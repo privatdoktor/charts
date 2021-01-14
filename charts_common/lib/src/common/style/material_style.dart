@@ -43,7 +43,11 @@ class MaterialStyle implements Style {
     return graphicsFactory.createLinePaint()
       ..color = spec?.color ?? MaterialPalette.gray.shadeDefault
       ..dashPattern = spec?.dashPattern
-      ..strokeWidth = spec?.thickness ?? 1;
+      ..strokeWidth = spec?.thickness ?? 1
+      ..ecgColor1 = spec?.ecgColor1
+      ..ecgColor2 = spec?.ecgColor2
+      ..ecgDashPattern1 = spec?.ecgDashPattern1
+      ..ecgDashPattern2 = spec?.ecgDashPattern2;
   }
 
   @override
@@ -52,7 +56,11 @@ class MaterialStyle implements Style {
     return graphicsFactory.createLinePaint()
       ..color = spec?.color ?? MaterialPalette.gray.shadeDefault
       ..dashPattern = spec?.dashPattern
-      ..strokeWidth = spec?.thickness ?? 1;
+      ..strokeWidth = spec?.thickness ?? 1
+      ..ecgColor1 = spec?.ecgColor1
+      ..ecgColor2 = spec?.ecgColor2
+      ..ecgDashPattern1 = spec?.ecgDashPattern1
+      ..ecgDashPattern2 = spec?.ecgDashPattern2;
   }
 
   @override
@@ -67,7 +75,11 @@ class MaterialStyle implements Style {
     return graphicsFactory.createLinePaint()
       ..color = spec?.color ?? MaterialPalette.gray.shade300
       ..dashPattern = spec?.dashPattern
-      ..strokeWidth = spec?.thickness ?? 1;
+      ..strokeWidth = spec?.thickness ?? 1
+      ..ecgColor1 = spec?.ecgColor1
+      ..ecgColor2 = spec?.ecgColor2
+      ..ecgDashPattern1 = spec?.ecgDashPattern1
+      ..ecgDashPattern2 = spec?.ecgDashPattern2;
   }
 
   @override
