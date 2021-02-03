@@ -1,7 +1,3 @@
-# 0.9.0
-* Internal bug fixes
-* Bump versions in Gemlock file due to security alerts
-
 # 0.8.1
 * Update intl version.
 
