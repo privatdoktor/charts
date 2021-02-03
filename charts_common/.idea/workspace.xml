@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5bae7eaf-dbaa-43e2-aab4-c5933ef187e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/charts_common-0.8.1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/chart/cartesian/axis/draw_strategy/ecg_line_strategy.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../charts_flutter-0.8.1/.idea/charts_flutter-0.8.1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../charts_flutter-0.8.1/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../charts_flutter-0.8.1/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../charts_flutter-0.8.1/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../charts_flutter-0.8.1/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../charts_flutter-0.8.1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../charts_flutter-0.8.1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../charts_flutter-0.8.1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../charts_flutter-0.8.1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FitKit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HealtKitPlayground/HealtKitPlayground.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HealtKitPlayground/HealtKitPlayground.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HealtKitPlayground/HealtKitPlayground.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HealtKitPlayground/HealtKitPlayground.xcodeproj/project.xcworkspace/xcuserdata/endre.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HealtKitPlayground/HealtKitPlayground.xcodeproj/xcuserdata/endre.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HealtKitPlayground/HealtKitPlayground/AppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HealtKitPlayground/HealtKitPlayground/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HealtKitPlayground/HealtKitPlayground/Assets.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HealtKitPlayground/HealtKitPlayground/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HealtKitPlayground/HealtKitPlayground/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HealtKitPlayground/HealtKitPlayground/HealtKitPlayground.entitlements" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HealtKitPlayground/HealtKitPlayground/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HealtKitPlayground/HealtKitPlayground/ViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrivatDoktor - issue list.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrivatDoktor-BLE/PrivatDoktor-BLE.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../PrivatDoktor-BLE/PrivatDoktor-BLE.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrivatDoktor-BLE/PrivatDoktor-BLE.xcodeproj/project.xcworkspace/xcuserdata/endre.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../PrivatDoktor-BLE/PrivatDoktor-BLE.xcodeproj/project.xcworkspace/xcuserdata/endre.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrivatDoktor-BLE/PrivatDoktor-BLE/BLE.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../PrivatDoktor-BLE/PrivatDoktor-BLE/BLE.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrivatDoktor-BLE/PrivatDoktor-BLE/Database.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../PrivatDoktor-BLE/PrivatDoktor-BLE/Database.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrivatDoktor-BLE/PrivatDoktor-BLE/GUI/BLEStatusViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../PrivatDoktor-BLE/PrivatDoktor-BLE/GUI/BLEStatusViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrivatDoktor-BLE/PrivatDoktor-BLE/GUI/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/../../PrivatDoktor-BLE/PrivatDoktor-BLE/GUI/Base.lproj/Main.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrivatDoktor-BLE/PrivatDoktor-BLE/GUI/BloodPressureEditViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../PrivatDoktor-BLE/PrivatDoktor-BLE/GUI/BloodPressureEditViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrivatDoktor-BLE/PrivatDoktor-BLE/GUI/MeasurementTableViewCell.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../PrivatDoktor-BLE/PrivatDoktor-BLE/GUI/MeasurementTableViewCell.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrivatDoktor-BLE/PrivatDoktor-BLE/GUI/MeasurementsTableViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../PrivatDoktor-BLE/PrivatDoktor-BLE/GUI/MeasurementsTableViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrivatDoktor-BLE/PrivatDoktor-BLE/GUI/PulseEditViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrivatDoktor-BLE/PrivatDoktor-BLE/GUI/PulseViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrivatDoktor-BLE/PrivatDoktor-BLE/GUI/SelectUserViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../PrivatDoktor-BLE/PrivatDoktor-BLE/GUI/SelectUserViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrivatDoktor-BLE/PrivatDoktor-BLE/Measurement.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../PrivatDoktor-BLE/PrivatDoktor-BLE/Measurement.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/android/key.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/android/key.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/assets/images/heart_rate_2.-o.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/assets/template/minta.xfl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/ios/Flutter/Generated (Lovas-MacBook-Pro.local's conflicted copy 2019-11-03).xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/ios/Flutter/flutter_export_environment (Lovas-MacBook-Pro.local's conflicted copy 2019-11-03).sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/ios/Flutter/flutter_export_environment.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/ios/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/ios/Pofile.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/ios/Runner-Bridging-Header.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/ios/Runner/AppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/ios/Runner/AppDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/ios/Runner/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/ios/Runner/Runner.entitlements" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/ios/Runner/Runner.entitlements" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/ios/Runner/main.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/ios/compatibility.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lang/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lang/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lang/hu.json" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lang/hu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/customWidgets/theme.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/customWidgets/theme.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/customWidgets/userProfileFormWidget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/customWidgets/userProfileFormWidget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/flows/FitKitFlow/fitKitAddingDevicesWidget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/flows/FitKitFlow/fitKitAddingDevicesWidget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/flows/FitKitFlow/fitKitFlow.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/flows/FitKitFlow/fitKitFlow.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/flows/FitKitFlow/fitKitGrantPermissionsWidget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/flows/FitKitFlow/fitKitGrantPermissionsWidget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/flows/addBTDeviceFlow/AddBtDeviceWidget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/flows/addBTDeviceFlow/AddBtDeviceWidget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/flows/addBTDeviceFlow/AddBtWelcomeWidget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/flows/addBTDeviceFlow/AddBtWelcomeWidget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/flows/registrationFlow/registerWidget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/flows/registrationFlow/registerWidget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/mainDrawer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/mainDrawer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/analyses/analysesPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/analyses/analysesPage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/auth/authPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/auth/authPage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/devices/DevicesWidget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/devices/DevicesWidget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/devices/deviceDetailsPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/devices/deviceDetailsPage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/devices/deviceItemWidget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/devices/deviceItemWidget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurementDetails/DummyMeasurementFullScreenChart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurementDetails/DummyMeasurementFullScreenChart.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurementDetails/dummyMeasurementDetailsPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurementDetails/dummyMeasurementDetailsPage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurementDetails/fitKitBloodGlucoseMeasurementDetailsPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurementDetails/fitKitBloodGlucoseMeasurementDetailsPage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurementDetails/fitKitBloodPressureDetailsPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurementDetails/fitKitBloodPressureDetailsPage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurementDetails/fitKitBodyFatMeasurementDetailsPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurementDetails/fitKitBodyFatMeasurementDetailsPage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurementDetails/fitKitHeartRateMeasurementDetailsPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurementDetails/fitKitHeartRateMeasurementDetailsPage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurementDetails/fitKitWeightMeasurementDetailsPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurementDetails/fitKitWeightMeasurementDetailsPage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurementDetails/measurementDetailsPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurementDetails/measurementDetailsPage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurements/MeasurementsWidget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurements/MeasurementsWidget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurements/measurementWidget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurements/measurementWidget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurements/measurementsWidgetFilter.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurements/measurementsWidgetFilter.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurements/widgets/dummyMeasurementWidget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurements/widgets/dummyMeasurementWidget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurements/widgets/fitKitBloodGlucoseMeasurementWidget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurements/widgets/fitKitBloodGlucoseMeasurementWidget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurements/widgets/fitKitBloodPressureMeasurementWidget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurements/widgets/fitKitBloodPressureMeasurementWidget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurements/widgets/fitKitBodyFatMeasurementWidget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurements/widgets/fitKitBodyFatMeasurementWidget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurements/widgets/fitKitHeartRateMeasurementWidget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurements/widgets/fitKitHeartRateMeasurementWidget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurements/widgets/fitKitWeightMeasurementWidget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/measurements/widgets/fitKitWeightMeasurementWidget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/userProfile/changePasswordWidget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/userProfile/changePasswordWidget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/userProfile/editUserProfilePage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/UI/pages/userProfile/editUserProfilePage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/ble/ble.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/ble/ble.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/ble/bleOmron.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/ble/bleOmron.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/constants/assets.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/constants/assets.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/constants/constants.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/constants/constants.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/constants/endpoints.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/constants/endpoints.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/constants/strings.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/constants/strings.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/constants/values.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/constants/values.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/localization/appLocalization.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/localization/appLocalization.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/Term.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/analyses/analyses.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/analyses/analyses.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/analyses/analyses.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/analyses/analyses.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/analyses/analyses_dao.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/analyses/analyses_dao.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/backendSyncer/backEndSyncItem.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/backendSyncer/backEndSyncItem.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/backendSyncer/backendSyncer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/backendSyncer/backendSyncer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/backendSyncer/device_syncer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/backendSyncer/device_syncer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/backendSyncer/device_syncer.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/backendSyncer/device_syncer.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/backendSyncer/measurementSyncItem.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/backendSyncer/measurementSyncItem.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/backendSyncer/measurementSyncItem.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/backendSyncer/measurementSyncItem.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/backendSyncer/measurement_syncer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/backendSyncer/measurement_syncer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/database/appDatabase.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/database/appDatabase.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/database/authentication_dao.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/database/authentication_dao.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/database/device_dao.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/database/device_dao.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/bluetoothDevice/bluetoothDevice.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/bluetoothDevice/bluetoothDevice.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/btDevice/btDevice.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/btDevice/btDevice.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/btDevice/btDevice.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/btDevice/btDevice.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/device.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/device.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/device.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/device.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/dummyDevice/dummyDevice.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/dummyDevice/dummyDevice.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/dummyDevice/dummyDevice.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/dummyDevice/dummyDevice.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/fitKitDevice/fitKitBloodGlucoseDevice.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/fitKitDevice/fitKitBloodGlucoseDevice.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/fitKitDevice/fitKitBloodGlucoseDevice.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/fitKitDevice/fitKitBloodGlucoseDevice.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/fitKitDevice/fitKitBloodPressureDevice.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/fitKitDevice/fitKitBloodPressureDevice.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/fitKitDevice/fitKitBloodPressureDevice.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/fitKitDevice/fitKitBloodPressureDevice.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/fitKitDevice/fitKitBodyFatDevice.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/fitKitDevice/fitKitBodyFatDevice.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/fitKitDevice/fitKitBodyFatDevice.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/fitKitDevice/fitKitBodyFatDevice.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/fitKitDevice/fitKitDevice.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/fitKitDevice/fitKitDevice.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/fitKitDevice/fitKitDevice.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/fitKitDevice/fitKitDevice.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/fitKitDevice/fitKitHeartRateDevice.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/fitKitDevice/fitKitHeartRateDevice.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/fitKitDevice/fitKitHeartRateDevice.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/fitKitDevice/fitKitHeartRateDevice.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/fitKitDevice/fitKitWeightDevice.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/fitKitDevice/fitKitWeightDevice.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/fitKitDevice/fitKitWeightDevice.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/fitKitDevice/fitKitWeightDevice.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/omron9210T/omron9210T.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/omron9210T/omron9210T.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/omron9210T/omron9210T.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/devices/omron9210T/omron9210T.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/measurement/fitKitBloodPressureMeasurement.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/measurement/fitKitBloodPressureMeasurement.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/measurement/measurement.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/measurement/measurement.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/measurement/measurement_dao.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/measurement/measurement_dao.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/userProfile/userProfile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/userProfile/userProfile.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/userProfile/userProfile.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/userProfile/userProfile.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/userProfile/userProfileMetaData.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/userProfile/userProfileMetaData.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/model/userProfile/userProfileMetaData.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/model/userProfile/userProfileMetaData.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/network/httpAnalyses/httpAnalyses.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/network/httpAnalyses/httpAnalyses.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/network/httpComm.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/network/httpComm.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/network/httpDevices/httpDevices.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/network/httpDevices/httpDevices.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/network/httpDevices/httpUserDevicesRequest.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/network/httpDevices/httpUserDevicesRequest.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/network/httpDevices/httpUserDevicesRequest.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/network/httpDevices/httpUserDevicesRequest.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/network/httpDevices/httpUserDevicesResponse.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/network/httpDevices/httpUserDevicesResponse.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/network/httpDevices/httpUserDevicesResponse.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/network/httpDevices/httpUserDevicesResponse.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/network/httpMeasurements/httpMeasurementRequest.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/network/httpMeasurements/httpMeasurementRequest.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/network/httpMeasurements/httpMeasurementResponse.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/network/httpMeasurements/httpMeasurementResponse.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/network/httpResponseInterface.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/network/httpResponseInterface.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/network/httpUserProfile/httpUserProfile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/network/httpUserProfile/httpUserProfile.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/network/httpUserProfile/httpUserProfileRequest.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/network/httpUserProfile/httpUserProfileRequest.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/network/httpUserProfile/httpUserProfileRequest.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/network/httpUserProfile/httpUserProfileRequest.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/network/httpUserProfile/userProfileResponseInterface.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/network/httpUserProfile/userProfileResponseInterface.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/network/httpUserProfile/userProfileResponseInterface.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/network/httpUserProfile/userProfileResponseInterface.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/persistence/localUserInfo.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/persistence/localUserInfo.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/rootWidget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/rootWidget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/lib/serializer/jsonHelper.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/lib/serializer/jsonHelper.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/test/http_test_devices.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/test/http_test_devices.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../privatdoktor/test/http_test_userProfile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../privatdoktor/test/http_test_userProfile.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Release notes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-Rasp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Telenetdoktor-Rasp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-iOS/Telenetdoktor-iOS.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-iOS/Telenetdoktor-iOS.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-iOS/Telenetdoktor-iOS.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-iOS/Telenetdoktor-iOS.xcodeproj/project.xcworkspace/xcuserdata/Endre.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-iOS/Telenetdoktor-iOS.xcodeproj/xcuserdata/Endre.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-iOS/Telenetdoktor-iOS.xcodeproj/xcuserdata/Endre.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-iOS/Telenetdoktor-iOS/AppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-iOS/Telenetdoktor-iOS/AppDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-iOS/Telenetdoktor-iOS/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-iOS/Telenetdoktor-iOS/Assets.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-iOS/Telenetdoktor-iOS/Assets.xcassets/first.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-iOS/Telenetdoktor-iOS/Assets.xcassets/first.imageset/first.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-iOS/Telenetdoktor-iOS/Assets.xcassets/second.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-iOS/Telenetdoktor-iOS/Assets.xcassets/second.imageset/second.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-iOS/Telenetdoktor-iOS/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-iOS/Telenetdoktor-iOS/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-iOS/Telenetdoktor-iOS/Bluetooth/BluetoothManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-iOS/Telenetdoktor-iOS/Bluetooth/BluetoothManager.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-iOS/Telenetdoktor-iOS/FirstViewController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-iOS/Telenetdoktor-iOS/FirstViewController.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-iOS/Telenetdoktor-iOS/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-iOS/Telenetdoktor-iOS/SecondViewController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-iOS/Telenetdoktor-iOS/SecondViewController.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-iOS/Telenetdoktor-iOS/main.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-iOS/Telenetdoktor-iOSTests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-iOS/Telenetdoktor-iOSTests/Telenetdoktor_iOSTests.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Podfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Podfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Manifest.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Pods.xcodeproj/xcuserdata/Endre.xcuserdatad/xcschemes/Pods-Telenetdoktor-swift.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Pods.xcodeproj/xcuserdata/Endre.xcuserdatad/xcschemes/Pods-Telenetdoktor-swiftTests.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Pods.xcodeproj/xcuserdata/Endre.xcuserdatad/xcschemes/lottie-ios.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Pods.xcodeproj/xcuserdata/Endre.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Target Support Files/Pods-Telenetdoktor-swift/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Target Support Files/Pods-Telenetdoktor-swift/Pods-Telenetdoktor-swift-acknowledgements.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Target Support Files/Pods-Telenetdoktor-swift/Pods-Telenetdoktor-swift-acknowledgements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Target Support Files/Pods-Telenetdoktor-swift/Pods-Telenetdoktor-swift-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Target Support Files/Pods-Telenetdoktor-swift/Pods-Telenetdoktor-swift-frameworks.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Target Support Files/Pods-Telenetdoktor-swift/Pods-Telenetdoktor-swift-resources.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Target Support Files/Pods-Telenetdoktor-swift/Pods-Telenetdoktor-swift-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Target Support Files/Pods-Telenetdoktor-swift/Pods-Telenetdoktor-swift.debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Target Support Files/Pods-Telenetdoktor-swift/Pods-Telenetdoktor-swift.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Target Support Files/Pods-Telenetdoktor-swift/Pods-Telenetdoktor-swift.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Target Support Files/Pods-Telenetdoktor-swiftTests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Target Support Files/Pods-Telenetdoktor-swiftTests/Pods-Telenetdoktor-swiftTests-acknowledgements.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Target Support Files/Pods-Telenetdoktor-swiftTests/Pods-Telenetdoktor-swiftTests-acknowledgements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Target Support Files/Pods-Telenetdoktor-swiftTests/Pods-Telenetdoktor-swiftTests-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Target Support Files/Pods-Telenetdoktor-swiftTests/Pods-Telenetdoktor-swiftTests-frameworks.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Target Support Files/Pods-Telenetdoktor-swiftTests/Pods-Telenetdoktor-swiftTests-resources.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Target Support Files/Pods-Telenetdoktor-swiftTests/Pods-Telenetdoktor-swiftTests-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Target Support Files/Pods-Telenetdoktor-swiftTests/Pods-Telenetdoktor-swiftTests.debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Target Support Files/Pods-Telenetdoktor-swiftTests/Pods-Telenetdoktor-swiftTests.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Target Support Files/Pods-Telenetdoktor-swiftTests/Pods-Telenetdoktor-swiftTests.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Target Support Files/lottie-ios/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Target Support Files/lottie-ios/lottie-ios-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Target Support Files/lottie-ios/lottie-ios-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Target Support Files/lottie-ios/lottie-ios-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Target Support Files/lottie-ios/lottie-ios.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/Target Support Files/lottie-ios/lottie-ios.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/AnimatableLayers/LOTCompositionContainer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/AnimatableLayers/LOTCompositionContainer.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/AnimatableLayers/LOTLayerContainer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/AnimatableLayers/LOTLayerContainer.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/AnimatableLayers/LOTMaskContainer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/AnimatableLayers/LOTMaskContainer.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/AnimatableProperties/LOTBezierData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/AnimatableProperties/LOTBezierData.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/AnimatableProperties/LOTKeyframe.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/AnimatableProperties/LOTKeyframe.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Extensions/CGGeometry+LOTAdditions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Extensions/CGGeometry+LOTAdditions.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Extensions/LOTBezierPath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Extensions/LOTBezierPath.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Extensions/LOTHelpers.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Extensions/LOTRadialGradientLayer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Extensions/LOTRadialGradientLayer.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Extensions/UIColor+Expanded.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Extensions/UIColor+Expanded.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/MacCompatibility/CALayer+Compat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/MacCompatibility/CALayer+Compat.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/MacCompatibility/LOTPlatformCompat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/MacCompatibility/NSValue+Compat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/MacCompatibility/NSValue+Compat.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/MacCompatibility/UIBezierPath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/MacCompatibility/UIBezierPath.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/MacCompatibility/UIColor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/MacCompatibility/UIColor.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTAsset.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTAsset.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTAssetGroup.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTAssetGroup.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTLayer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTLayer.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTLayerGroup.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTLayerGroup.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTMask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTMask.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTModels.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeCircle.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeCircle.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeFill.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeFill.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeGradientFill.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeGradientFill.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeGroup.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeGroup.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapePath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapePath.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeRectangle.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeRectangle.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeRepeater.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeRepeater.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeStar.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeStar.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeStroke.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeStroke.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeTransform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeTransform.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeTrimPath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeTrimPath.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Private/LOTAnimatedControl.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Private/LOTAnimatedSwitch.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Private/LOTAnimationCache.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Private/LOTAnimationTransitionController.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Private/LOTAnimationView.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Private/LOTAnimationView_Internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Private/LOTBlockCallback.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Private/LOTCacheProvider.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Private/LOTComposition.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Private/LOTInterpolatorCallback.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Private/LOTKeypath.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/Private/LOTValueCallback.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTAnimatedControl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTAnimatedSwitch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTAnimationCache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTAnimationTransitionController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTAnimationView.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTAnimationView_Compat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTBlockCallback.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTCacheProvider.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTComposition.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTInterpolatorCallback.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTKeypath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTValueCallback.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTValueDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/Lottie.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/AnimatorNodes/LOTCircleAnimator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/AnimatorNodes/LOTCircleAnimator.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/AnimatorNodes/LOTPathAnimator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/AnimatorNodes/LOTPathAnimator.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/AnimatorNodes/LOTPolygonAnimator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/AnimatorNodes/LOTPolygonAnimator.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/AnimatorNodes/LOTPolystarAnimator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/AnimatorNodes/LOTPolystarAnimator.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/AnimatorNodes/LOTRoundedRectAnimator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/AnimatorNodes/LOTRoundedRectAnimator.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTArrayInterpolator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTArrayInterpolator.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTColorInterpolator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTColorInterpolator.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTNumberInterpolator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTNumberInterpolator.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTPathInterpolator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTPathInterpolator.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTPointInterpolator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTPointInterpolator.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTSizeInterpolator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTSizeInterpolator.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTTransformInterpolator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTTransformInterpolator.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTValueInterpolator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTValueInterpolator.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/LOTAnimatorNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/LOTAnimatorNode.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/LOTRenderNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/LOTRenderNode.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/ManipulatorNodes/LOTTrimPathNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/ManipulatorNodes/LOTTrimPathNode.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/RenderNodes/LOTFillRenderer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/RenderNodes/LOTFillRenderer.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/RenderNodes/LOTGradientFillRender.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/RenderNodes/LOTGradientFillRender.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/RenderNodes/LOTRenderGroup.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/RenderNodes/LOTRenderGroup.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/RenderNodes/LOTRepeaterRenderer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/RenderNodes/LOTRepeaterRenderer.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/RenderNodes/LOTStrokeRenderer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/RenderNodes/LOTStrokeRenderer.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift.xcodeproj/project.xcworkspace/xcuserdata/Endre.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift.xcodeproj/xcuserdata/Endre.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift.xcodeproj/xcuserdata/Endre.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift.xcworkspace/xcuserdata/Endre.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift.xcworkspace/xcuserdata/Endre.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift/AppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift/AppDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift/Assets.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift/Assets.xcassets/first.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift/Assets.xcassets/first.imageset/first.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift/Assets.xcassets/second.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift/Assets.xcassets/second.imageset/second.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift/Bluetooth/BLEManager.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift/Bluetooth/BluetoothManager.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift/Bluetooth/GarminManager.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift/Classes/WifiNetworkItem.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift/ConnectionViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift/GarminConnectionStory/GarminConnect.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift/GarminConnectionStory/GarminConnectionViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift/Lottie/lottie-heart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift/Lottie/lottie-question.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift/Lottie/lottie-search.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift/Lottie/lottie-wifi-connect.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift/Lottie/lottie-wifi-connected.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift/Lottie/lottie-wifi-disconnected.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift/Lottie/lottie-wifi-scan.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift/WifiConnectionStory/WifiConnection.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift/WifiConnectionStory/WifiConnectionTableViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift/WifiConnectionStory/WifiConnectionViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift/WifiConnectionStory/WifiNetworkTableViewCell.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift/WifiConnectionStory/lottie-wifi-scan.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swift/main.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swiftTests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-swift/Telenetdoktor-swiftTests/Telenetdoktor_swiftTests.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Telenetdoktor-web/react-firebase-authentication" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../list.csv" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/src/chart/cartesian/axis/draw_strategy/ecg_line_strategy.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="72" column="13" lean-forward="true" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/src/chart/cartesian/axis/tick.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+              <folding>
+                <element signature="e#645#677#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/lib/src/chart/cartesian/axis/tick.dart" />
+        <option value="$PROJECT_DIR$/lib/src/chart/cartesian/axis/draw_strategy/ecg_line_strategy.dart" />
+        <option value="$PROJECT_DIR$/lib/src/chart/cartesian/axis/draw_strategy/gridline_draw_strategy.dart" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="9" />
+    <option name="y" value="23" />
+    <option name="width" value="2461" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="charts_common-0.8.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="charts_common-0.8.1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="charts_common-0.8.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="charts_common-0.8.1" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="charts_common-0.8.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="charts_common-0.8.1" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="charts_common-0.8.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="charts_common-0.8.1" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="charts_common-0.8.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="charts_common-0.8.1" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chart" type="462c0819:PsiDirectoryNode" />
+              <item name="cartesian" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="charts_common-0.8.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="charts_common-0.8.1" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chart" type="462c0819:PsiDirectoryNode" />
+              <item name="cartesian" type="462c0819:PsiDirectoryNode" />
+              <item name="axis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="charts_common-0.8.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="charts_common-0.8.1" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chart" type="462c0819:PsiDirectoryNode" />
+              <item name="cartesian" type="462c0819:PsiDirectoryNode" />
+              <item name="axis" type="462c0819:PsiDirectoryNode" />
+              <item name="draw_strategy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="charts_common-0.8.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="settings.editor.splitter.proportion" value="0.23541048" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5bae7eaf-dbaa-43e2-aab4-c5933ef187e3" name="Default Changelist" comment="" />
+      <created>1582012633094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582012633094</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="9" y="23" width="2461" height="877" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1508888" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Resources Explorer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="0" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info anchor="bottom" id="Debug" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Dart Analysis" order="7" weight="0.32955405" />
+      <window_info anchor="bottom" id="Messages" order="8" visible="true" weight="0.32955405" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Flutter Inspector" order="2" />
+      <window_info anchor="right" id="Flutter Outline" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/src/chart/cartesian/axis/draw_strategy/gridline_draw_strategy.dart</url>
+          <line>118</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/src/chart/cartesian/axis/tick.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+          <folding>
+            <element signature="e#645#677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/chart/cartesian/axis/draw_strategy/gridline_draw_strategy.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="149" column="40" selection-start-line="149" selection-start-column="40" selection-end-line="149" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/chart/cartesian/axis/draw_strategy/ecg_line_strategy.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="72" column="13" lean-forward="true" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

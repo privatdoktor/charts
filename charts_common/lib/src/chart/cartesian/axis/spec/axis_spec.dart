@@ -169,9 +169,13 @@ class TextStyleSpec {
 class LineStyleSpec {
   final Color color;
   final List<int> dashPattern;
+  final List<int> ecgDashPattern1;
+  final List<int> ecgDashPattern2;
   final int thickness;
+  final Color ecgColor1;
+  final Color ecgColor2;
 
-  const LineStyleSpec({this.color, this.dashPattern, this.thickness});
+  const LineStyleSpec({this.color, this.dashPattern, this.thickness, this.ecgColor1, this.ecgColor2, this.ecgDashPattern1, this.ecgDashPattern2});
 
   @override
   bool operator ==(Object other) {
